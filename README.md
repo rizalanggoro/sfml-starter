@@ -10,7 +10,7 @@
   ]
   ```
 
-- Install MinGW Builds 7.3.0 (64-bit) melalui link [berikut.](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/7.3.0/threads-posix/seh/x86_64-7.3.0-release-posix-seh-rt_v5-rev0.7z/download)
+- Install MinGW Builds 7.3.0 (64-bit) melalui link [berikut.](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/7.3.0/threads-posix/seh/x86_64-7.3.0-release-posix-seh-rt_v5-rev0.7z/download) (Selain versi 7.3.0 tidak work).
 - Ekstrak file `.7z` menggunakan winrar atau sejenisnya, kemudian pindahkan ke folder `C:/` atau lainnya.
 - Tambahkan `path_ke_folder_mingw-7.3.0/bin` ke `Environment Variables` pada bagian `Path`.
 
