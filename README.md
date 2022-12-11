@@ -16,6 +16,7 @@
 
   Contoh : `D:\application\mingw64\bin`
 
+- Buka file `Makefile`, ubah `D:\sdk\SFML-gcc` pada bagian `compile` dan `link` sesuai dengan folder instalasi mingw.
 - Untuk bisa mengeksekusi file `Makefile`, lakukan rename pada file `path_ke_folder_mingw-7.3.0/bin/mingw32-make.exe` diubah menjadi `make.exe`.
 
 ## Cara menjalankan program
