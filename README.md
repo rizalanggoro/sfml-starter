@@ -29,3 +29,22 @@
 ## Error
 
 Program tidak bisa dijalankan? Pastikan telah menambahkan semua file `*.dll` yang terdapat pada `path_ke_folder_sfml/bin` ke folder root project.
+
+## Shortcut VS Code
+
+- Klik `Ctrl Shift P` lalu ketikkan `shortcut`, pilih `Preferences: Open Keyboard Shortcuts (JSON)`. Maka akan terbuka file `keybindings.json`.
+- Untuk menggunakan shortcut `Ctrl Alt X` sebagai shortcut run, tambahkan kode berikut.
+
+```json
+// ...code lainnya
+{
+  "key": "ctrl+alt+x",
+  "command": "workbench.action.terminal.sendSequence",
+  "args": {
+    "text": "make\u000D"
+  }
+}
+```
+
+- Simpan perubahan, lalu tutup file `keybindings.json`.
+- Untuk melakukan run program cukup menekan `Ctrl Alt X` secara bersamaan.
