@@ -1,3 +1,7 @@
+# <span style="color: red">[DEPRECATED!]</span>
+
+## Dipindah ke [sfml-starter-v2](https://github.com/rizalanggoro/sfml-starter-v2)
+
 ## Persiapan
 
 - Tambahkan `path_ke_folder_sfml/include` ke `.vscode/c_cpp_properties.json` pada bagian `includePath`.
